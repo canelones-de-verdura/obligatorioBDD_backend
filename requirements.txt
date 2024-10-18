@@ -1,3 +1,6 @@
+En consola ejecutar
+    $ python -m venv .
+
 Instalar con ./bin/pip
-    mysql-connector-python
-    "fastapi[standard]"
+    $ ./bin/pip mysql-connector-python
+    $ ./bin/pip "fastapi[standard]"
