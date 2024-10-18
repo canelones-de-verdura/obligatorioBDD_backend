@@ -1,0 +1,3 @@
+Instalar con ./bin/pip
+    mysql-connector-python
+    "fastapi[standard]"
