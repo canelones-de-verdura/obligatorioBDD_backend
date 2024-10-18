@@ -1,6 +1,6 @@
 import mysql.connector
 
-class Consultor:
+class Connection:
     def __init__(self: object, passwd: str) -> object:
         try:
             self.cnx = mysql.connector.connect(

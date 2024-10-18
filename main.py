@@ -1,8 +1,7 @@
-import connector
-from connector import Consultor
+from connector import Connection
 
 passwd = "xoWsa8-pymfij-dawryn"
-conn = Consultor(passwd)
+conn = Connection(passwd)
 print(conn.msg)
 
 query = """
